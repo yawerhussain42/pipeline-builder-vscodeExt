@@ -1,0 +1,27 @@
+body {
+  background-color: light-dark(var(--mantine-color-white), var(--mantine-color-dark-7));
+}
+input:disabled {
+  color: var(--mantine-color-text) !important;
+  background-color: var(--_input-bg) !important;
+  opacity: 1 !important;
+}
+
+select:disabled {
+  color: var(--mantine-color-text) !important;
+  background-color: var(--_input-bg) !important;
+  opacity: 1 !important;
+}
+
+.active {
+  transition: transform 100ms ease-in-out;
+
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
+.backgroundRoot {
+  background-color: light-dark(var(--mantine-color-primary-9), var(--mantine-color-dark-8));
+  border: none;
+}

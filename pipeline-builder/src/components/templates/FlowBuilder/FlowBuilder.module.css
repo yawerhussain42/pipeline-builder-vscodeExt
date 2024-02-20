@@ -1,0 +1,13 @@
+.customNode {
+  width: 0px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  padding: 0;
+  div {
+    width: 10px;
+    height: 10px;
+  }
+}
